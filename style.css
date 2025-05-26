@@ -1,21 +1,38 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f3f3f3;
+  background-image: url('greeting.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
   direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container {
-  margin-top: 50px;
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 input, button {
-  padding: 10px;
   font-size: 18px;
+  padding: 10px;
   margin: 10px;
+  border-radius: 8px;
+  border: none;
 }
 
-canvas {
-  margin-top: 20px;
-  border: 2px solid #ccc;
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
 }
