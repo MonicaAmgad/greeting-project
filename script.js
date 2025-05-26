@@ -7,5 +7,5 @@ function generateGreeting() {
     return;
   }
 
-  messageContainer.innerText = `🎉استاذ فهد يتمنى لك عيد اضحى سعيذ يا${name} 🎉`;
+  messageContainer.innerText = `🎉استاذ فهد يتمنى لك عيد اضحى سعيد يا${name} 🎉`;
 }
